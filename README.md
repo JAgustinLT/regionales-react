@@ -22,6 +22,20 @@ El proyecto está publicado y funcionando en Vercel:
 
 ## ⚙️ Instalación (Modo Local)
 
+📂 Ingresar al proyecto
+
+cd regionales-react
+
+📥 Instalar dependencias
+
+npm install
+
+▶️ Iniciar el proyecto en modo desarrollo
+
+npm run dev
+
+
+
 ### 📦 Clonar el repositorio
 ```bash
 git clone https://github.com/JAgustinLT/regionales-react.git
