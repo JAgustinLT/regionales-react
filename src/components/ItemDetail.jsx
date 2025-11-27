@@ -12,10 +12,10 @@ const ItemDetail = ({detalle}) => {
   // const contexto = useContext(CartContext)
   const {cart, addItem, itemQuantity} = useContext(CartContext)
   const [quantityAdded, setQuantityAdded]= useState(0)
-  console.log(cart)
+  // console.log(cart)
 
   const onAdd = (cantidad)=>{
-    console.log(`Agregaste ${cantidad} al carrito`)
+    // console.log(`Agregaste ${cantidad} al carrito`)
     addItem(detalle, cantidad)
     setQuantityAdded(cantidad)
 

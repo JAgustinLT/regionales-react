@@ -1,16 +1,52 @@
-# React + Vite
+# 🧉 Regionales de Argentina
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue desarrollado para mostrar y vender productos regionales típicos de Argentina utilizando **React + Vite** y **Firebase** como base de datos.
 
-Currently, two official plugins are available:
+![imageApp](./public/pagina.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Repositorio en GitHub
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Podés acceder al código completo acá 👇  
+👉 **https://github.com/JAgustinLT/regionales-react.git**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Proyecto Online (Deploy)
+
+El proyecto está publicado y funcionando en Vercel:  
+👉 **https://regionales-react.vercel.app/**
+
+---
+
+## ⚙️ Instalación (Modo Local)
+
+### 📦 Clonar el repositorio
+```bash
+git clone https://github.com/JAgustinLT/regionales-react.git
+
+
+| Librería             | Uso                            |
+| -------------------- | ------------------------------ |
+| **Firebase**         | Base de datos y autenticación  |
+| **React Router DOM** | Navegación entre rutas         |
+| **React Bootstrap**  | Estilos y componentes visuales |
+| **Vite**             | Entorno de desarrollo rápido   |
+
+
+
+| Comando           | Función                           |
+| ----------------- | --------------------------------- |
+| `npm install`     | Instala dependencias              |
+| `npm run dev`     | Ejecuta el proyecto               |
+| `npm run build`   | Genera la versión para producción |
+| `npm run preview` | Previsualiza el build             |
+
+
+
+Desarrollado por Agustín Lopez Torres
+
+
+
+
