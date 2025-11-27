@@ -9,24 +9,32 @@ import FechCountry from './examples/FechCountry';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import Error from './components/Error';
+import { CartProvider } from './context/CartContext';
+import CartContainer from './components/CartContainer';
+import Checkout from './components/Checkout';
+
 
 function App() {
   
 
   return (
     <BrowserRouter>
+    <CartProvider>
       <Navbarbs/>
+      
       <Routes>
         <Route path='/' element={<ItemListContainer regionales='Regionales de Argentina'/>}/>
         <Route path='/category/:type' element={<ItemListContainer regionales='Bienvenido a la Categoria:'/>}/>
         <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+        <Route path='/cart' element={<CartContainer/>}/>
+        <Route path='/checkout' element={<Checkout/>}/>
         <Route path='*' element={<Error/>}/>
 
       </Routes>
       
       {/* <ItemCount stock={12}/> */}
       {/* <FechCountry/> */}
-     
+      </CartProvider>
     </BrowserRouter>
   )
 }
